@@ -1,11 +1,11 @@
 # Site settings
 author: Brian Kleiner
-title: 
+title: Flatiron Blog
 header-img: img/home-bg.png
 email: brian.j.kleiner@gmail.com
 copyright_name: Brian Kleiner
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Blog for FT 01/21 Cohort
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Beekasha
