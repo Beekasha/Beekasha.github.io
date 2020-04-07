@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rendering vs. Redirecting"
-date:       2020-04-07 19:23:26 +0000
+date:       2020-04-07 15:23:27 -0400
 permalink:  rendering_vs_redirecting
 ---
 
