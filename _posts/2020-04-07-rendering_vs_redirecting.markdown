@@ -8,8 +8,10 @@ permalink:  rendering_vs_redirecting
 
 Initially I was confused as to when to use a redirect vs a render :erb.
 
-Rendering a view is done by calling an erb file within a controller. If you call a render, all of the logic from your methods will not be accessible within the normal instance variables. A render does not load any context associated with the controller action. Render wants to render a view without passing any data to the next controller action. 
+Rendering a view is done by calling an erb file within a controller. This is done without losing access to the instance variables defined in the corresponding controller. 
 
-Redirect on the other hand, will make a brand new request to the controller action, and you will be able to use the logic from your controllers in the view. 
+While you can access instance variables through a render, their values will be wiped out with a redirect.
+
+Redirect on the other hand, will make a brand new request to the controller action, and you will be able to use the logic from your controllers in the view. For example, sending a request to another address. The view of which the redirect is corresponding to will not have access to the instance variables within the controller.
 
 This is why you RENDER a new form, fill it out, and REDIRECT (to lets say - an index page). 
