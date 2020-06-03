@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Search Functionality + ActiveRecord Associations"
-date:       2020-06-03 19:40:46 +0000
+title:      "Search Functionality and ActiveRecord Associations"
+date:       2020-06-03 15:40:46 -0400
 permalink:  search_functionality_activerecord_associations
 ---
 
